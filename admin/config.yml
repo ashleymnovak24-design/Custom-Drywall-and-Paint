@@ -1,6 +1,6 @@
 backend:
   name: git-gateaway
-  repo: ashleymnovak24-design/Custom-Drywall-and-Paint
+  
   branch: main
 
 media_folder: "assets/uploads"
