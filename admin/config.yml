@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: ashleymnovak24-design/Custom-Drywall-and-Paint
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "projects"
+    label: "Project Photos"
+    files:
+      - name: "gallery"
+        label: "Website Gallery"
+        file: "content/projects/index.json"
+        format: "json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Project Name", name: "title", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text", required: false }
