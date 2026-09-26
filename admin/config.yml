@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateaway
   repo: ashleymnovak24-design/Custom-Drywall-and-Paint
   branch: main
 
